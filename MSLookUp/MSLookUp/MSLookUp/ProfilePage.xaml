@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="MSLookUp.ProfilePage"
+    Title="Student Info."
+    Padding="20">
+	<ContentPage Title="Profile" Padding="20">
+        <ContentPage.ToolbarItems>
+        <ToolbarItem Text="LogOut" Activated="Handle_Activated"/>
+
+        </ContentPage.ToolbarItems>
+         <StackLayout>
+              <Image Source="/Users/yoginbhatt/Projects/MSLookUp/MSLookUp/Properties/Assets/logo.png"/>
+        <Label Text="Mobile Student LookUp" TextColor="#E38947" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+         <Label Text="{Binding lastName}"/>
+         <Label Text="{Binding firstName}"/>
+            <Label Text="{Binding studentNumber}"/>
+            
+        </StackLayout>
+	</ContentPage >
+    <ContentPage Title="Emergency Contact" Padding="20">
+    <StackLayout>
+                <Image Source="/Users/yoginbhatt/Projects/MSLookUp/MSLookUp/Properties/Assets/logo.png"/>
+        <Label Text="Mobile Student LookUp" TextColor="#E38947" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+   <StackLayout>
+   <Label Text="Relation"/>
+                <Frame>
+                <Grid>
+                <Label Text="First Name" Grid.Row="0" Grid.Column="0"/>
+                    <Label Text=" fName" Grid.Row="0" Grid.Column="1"/>
+                     <Label Text="Last Name" Grid.Row="1" Grid.Column="0"/>
+                    <Label Text=" lName" Grid.Row="1" Grid.Column="1"/>
+                     <Label Text="Phone Number" Grid.Row="2" Grid.Column="0"/>
+                    <Label Text=" number" Grid.Row="2" Grid.Column="1"/>
+                     <Label Text="Email " Grid.Row="3" Grid.Column="0"/>
+                    <Label Text=" email" Grid.Row="3" Grid.Column="1"/>
+       
+                </Grid>
+                </Frame>
+
+
+            </StackLayout>
+                
+
+        </StackLayout>
+
+    </ContentPage>
+  
+   <ContentPage Title="TimeTable" Padding="20">
+    <StackLayout>
+                <Image Source="/Users/yoginbhatt/Projects/MSLookUp/MSLookUp/Properties/Assets/logo.png"/>
+        <Label Text="Mobile Student LookUp" TextColor="#E38947" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+    <Label Text="Student Schedule goes here"/>
+
+        </StackLayout>
+
+    </ContentPage>
+   
+    
+</TabbedPage>
