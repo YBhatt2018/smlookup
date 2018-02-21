@@ -3,6 +3,7 @@
     Title="School Select"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    NavigationPage.HasBackButton="false"
     x:Class="MSLookUp.SchoolSelect"
     Padding="20">
 	<ContentPage.Content>
