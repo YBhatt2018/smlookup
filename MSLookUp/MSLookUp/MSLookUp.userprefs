@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{84A85FB1-930A-4D74-9ED3-C795CF19F610}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MSLookUp/App.xaml.cs">
+    <Files>
+      <File FileName="MSLookUp/MSLookUpPage.xaml" Line="37" Column="1" />
+      <File FileName="MSLookUp/MSLookUpPage.xaml.cs" Line="47" Column="76" />
+      <File FileName="Droid/Properties/AndroidManifest.xml" Line="8" Column="13" />
+      <File FileName="packages/Plugin.CurrentActivity.1.0.1/readme.txt" Line="1" Column="2" />
+      <File FileName="Droid/MainActivity.cs" Line="24" Column="13" />
+      <File FileName="MSLookUp/App.xaml" Line="7" Column="1" />
+      <File FileName="MSLookUp/App.xaml.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.ItemProperties.MSLookUp.Droid PreferredExecutionTarget="Xamarin.Player.XamarinStudio.DefaultPlayerExecutionTarget" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.MSLookUp.iOS PreferredExecutionTarget="4C1C129B-8A2E-4CB2-8A8C-6E35E54CE722" />
+  <MultiItemStartupConfigurations />
+</Properties>
