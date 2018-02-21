@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="MSLookUp.ReasultPage"
+    Title="Results"
+    Padding="20">
+	<ContentPage.Content>
+        <StackLayout>
+              <Image Source="/Users/yoginbhatt/Projects/MSLookUp/MSLookUp/Properties/Assets/logo.png"/>
+        <Label Text="Mobile Student LookUp" TextColor="#E38947" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+            <Grid>
+            <Label Text="LastName" Grid.Row="0" Grid.Column="0"/>
+                <Label Text="FirstName" Grid.Row="0" Grid.Column="1"/>
+                <Label Text="StudentNo." Grid.Row="0" Grid.Column="2"/>
+
+            </Grid>
+        <ListView x:Name = "ListView" ItemSelected="Handle_ItemSelected" >
+        <ListView.ItemTemplate>
+        <DataTemplate>
+        <ViewCell>
+
+
+         <Grid>
+       
+        <Label Text="{Binding lastName}" Grid.Row="1"  Grid.Column="0" />
+        <Label Text="{Binding firstName}" Grid.Row="1" Grid.Column="1"/>
+        <Label Text="{Binding studentNumber}"  Grid.Row="1" Grid.Column="2"/>
+       </Grid>
+
+        </ViewCell>
+        </DataTemplate>
+
+                </ListView.ItemTemplate>
+
+            </ListView>
+        </StackLayout>
+	</ContentPage.Content>
+</ContentPage>

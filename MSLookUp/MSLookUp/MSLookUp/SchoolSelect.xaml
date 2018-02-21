@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    Title="School Select"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="MSLookUp.SchoolSelect"
+    Padding="20">
+	<ContentPage.Content>
+       <StackLayout Spacing="20">
+    <Image Source="logo.png"/>
+            
+        <Label Text="Mobile Student LookUp" TextColor="#E38947" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+
+        <StackLayout>
+  <Picker x:Name="pickera" Title="Select a School" SelectedIndexChanged="Handle_SelectedIndexChanged" >
+  <Picker.ItemsSource>
+    <x:Array Type="{x:Type x:String}">
+      <x:String>A Y Jackson Secondary School</x:String>
+      <x:String>Adam Beck Junior Public School</x:String>
+      <x:String> IngleNook Community School</x:String>
+      </x:Array>
+  </Picker.ItemsSource>
+</Picker>
+                  </StackLayout>
+                <StackLayout Spacing="50">
+
+      <Button Text="Next" Clicked="Handle_Clicked" x:Name="nextSc" IsVisible="false"/> 
+                
+                </StackLayout>
+                
+          
+
+            
+        </StackLayout>
+	</ContentPage.Content>
+</ContentPage>
