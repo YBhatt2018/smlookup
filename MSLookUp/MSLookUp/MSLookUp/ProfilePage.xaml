@@ -19,7 +19,11 @@
         </StackLayout>
 	</ContentPage >
     <ContentPage Title="Emergency Contact" Padding="20">
-    <StackLayout>
+        <ContentPage.ToolbarItems>
+            <ToolbarItem Text="LogOut" Activated="Handle_Activated"/>
+
+        </ContentPage.ToolbarItems>
+        <StackLayout>
                 <Image Source="/Users/yoginbhatt/Projects/MSLookUp/MSLookUp/Properties/Assets/logo.png"/>
         <Label Text="Mobile Student LookUp" TextColor="#E38947" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
    <StackLayout>
@@ -47,7 +51,11 @@
     </ContentPage>
   
    <ContentPage Title="TimeTable" Padding="20">
-    <StackLayout>
+        <ContentPage.ToolbarItems>
+            <ToolbarItem Text="LogOut" Activated="Handle_Activated"/>
+
+        </ContentPage.ToolbarItems>
+        <StackLayout>
                 <Image Source="/Users/yoginbhatt/Projects/MSLookUp/MSLookUp/Properties/Assets/logo.png"/>
         <Label Text="Mobile Student LookUp" TextColor="#E38947" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
     <Label Text="Student Schedule goes here"/>
