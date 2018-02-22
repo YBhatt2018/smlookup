@@ -32,7 +32,7 @@ namespace MSLookUp
 
             var contact = e.SelectedItem as Contact;
             //var profilepage = new ProfilePage(contact);
-            await Navigation.PushAsync(new ProfilePage(contact));
+            await Navigation.PushAsync(new ProfilePage() { BindingContext = contact });
             ListView.SelectedItem = null;
         }
     }
