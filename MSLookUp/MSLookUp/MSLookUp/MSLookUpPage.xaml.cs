@@ -16,23 +16,24 @@ namespace MSLookUp
             //var userID = new Label { Text = "UserID" };
             //AutomationProperties.SetIsInAccessibleTree(userID, true);
             //AutomationProperties.SetHelpText(userID, "EMAIL LABEL");
-         
+            
+            
         }
 
-
+        
+       
         async void Handle_Clicked_Login(object sender, System.EventArgs e)
         {
+            
+            var etext = string.IsNullOrWhiteSpace(email.Text) ;
+            var passtext = string.IsNullOrWhiteSpace(pass.Text);
 
-            var etext = email.Text;
-            var passtext = pass.Text;
-
-            if( etext != null || passtext != null){
-                await Navigation.PushAsync(new SchoolSelect());
+         if( etext == true || passtext == true){
+                return;
             }
-                
          else
             {
-                return;
+                await Navigation.PushAsync(new SchoolSelect());
             }
            
         }
