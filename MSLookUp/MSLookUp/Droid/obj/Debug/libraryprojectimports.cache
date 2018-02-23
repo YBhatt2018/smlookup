@@ -1,10 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Paths>
   <Jars>
-    <Jar>obj\Debug\lp\0\jl\formsviewgroup.jar</Jar>
-    <Jar>obj\Debug\lp\4\jl\__reference__sdk-v1.0.0.jar</Jar>
-    <Jar>obj\Debug\lp\4\jl\__reference__pass-v1.2.0.jar</Jar>
-    <Jar>obj\Debug\lp\8\jl\support-annotations.jar</Jar>
     <Jar>H:\smlookup\MSLookUp\MSLookUp\Droid\obj\Debug\lp\19\jl\bin\classes.jar</Jar>
     <Jar>H:\smlookup\MSLookUp\MSLookUp\Droid\obj\Debug\lp\17\jl\bin\classes.jar</Jar>
     <Jar>H:\smlookup\MSLookUp\MSLookUp\Droid\obj\Debug\lp\18\jl\bin\classes.jar</Jar>

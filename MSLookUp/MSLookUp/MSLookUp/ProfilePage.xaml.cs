@@ -7,14 +7,13 @@ namespace MSLookUp
 {
     public partial class ProfilePage : TabbedPage
     {
-      
-        public ProfilePage(Contact contact )
+
+        public ProfilePage() 
         {
+            
+            
 
-            if (contact == null)
-                throw new ArgumentNullException ();
-
-            BindingContext = contact;  
+              
 
             InitializeComponent();
         }

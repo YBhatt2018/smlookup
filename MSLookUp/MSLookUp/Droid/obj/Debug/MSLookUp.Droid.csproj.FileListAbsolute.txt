@@ -198,6 +198,17 @@ H:\smlookup\MSLookUp\MSLookUp\Droid\obj\Debug\res\drawable-xxhdpi\icon.png
 H:\smlookup\MSLookUp\MSLookUp\Droid\obj\Debug\res\drawable\logo.png
 H:\smlookup\MSLookUp\MSLookUp\Droid\obj\Debug\R.cs.flag
 H:\smlookup\MSLookUp\MSLookUp\Droid\obj\Debug\uploadflags.txt
+H:\smlookup\MSLookUp\MSLookUp\Droid\bin\Debug\MSLookUp.dll.mdb
+H:\smlookup\MSLookUp\MSLookUp\Droid\bin\Debug\MSLookUp.Droid.dll.mdb
+H:\smlookup\MSLookUp\MSLookUp\Droid\obj\Debug\android\assets\Plugin.Fingerprint.Android.Samsung.dll.mdb
+H:\smlookup\MSLookUp\MSLookUp\Droid\obj\Debug\android\assets\Plugin.Fingerprint.Abstractions.dll.mdb
+H:\smlookup\MSLookUp\MSLookUp\Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+H:\smlookup\MSLookUp\MSLookUp\Droid\obj\Debug\android\assets\MSLookUp.Droid.dll.mdb
+H:\smlookup\MSLookUp\MSLookUp\Droid\obj\Debug\android\assets\MSLookUp.dll.mdb
+H:\smlookup\MSLookUp\MSLookUp\Droid\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
+H:\smlookup\MSLookUp\MSLookUp\Droid\obj\Debug\android\assets\Plugin.Fingerprint.dll.mdb
+H:\smlookup\MSLookUp\MSLookUp\Droid\obj\Debug\android\assets\FormsViewGroup.dll.mdb
+H:\smlookup\MSLookUp\MSLookUp\Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 H:\smlookup\MSLookUp\MSLookUp\Droid\bin\Debug\MSLookUp.Droid.dll
 H:\smlookup\MSLookUp\MSLookUp\MSLookUp\bin\Debug\MSLookUp.dll
 bin\Debug\MSLookUp.dll.mdb
