@@ -11,7 +11,7 @@
 namespace MSLookUp {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("H:\\GitHub\\smlookup\\MSLookUp\\MSLookUp\\MSLookUp\\MasterTab.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("H:\\smlookup\\MSLookUp\\MSLookUp\\MSLookUp\\MasterTab.xaml")]
     public partial class MasterTab : global::Xamarin.Forms.TabbedPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

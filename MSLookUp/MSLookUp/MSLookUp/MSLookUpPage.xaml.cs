@@ -33,8 +33,6 @@ namespace MSLookUp
             }
          else
             {
-                email.Text = string.Empty;
-                pass.Text = string.Empty;
                 await Navigation.PushAsync(new SchoolSelect());
             }
            

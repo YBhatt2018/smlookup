@@ -4,11 +4,7 @@
     x:Class="MSLookUp.ReasultPage"
     Title="Results"
     Padding="20">
-    <ContentPage.ToolbarItems>
-        <ToolbarItem Text="LogOut" Activated="Handle_Activated"/>
-        <ToolbarItem Text="Search" Activated="Handle_Activated1"/>
-    </ContentPage.ToolbarItems>
-    <ContentPage.Content>
+	<ContentPage.Content>
         <StackLayout>
               <Image Source="/Users/yoginbhatt/Projects/MSLookUp/MSLookUp/Properties/Assets/logo.png"/>
         <Label Text="Mobile Student LookUp" TextColor="#E38947" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
