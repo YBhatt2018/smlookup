@@ -33,5 +33,9 @@ namespace MSLookUp
         {
             await Navigation.PushAsync(new SearchPage());
         }
+        async void Handle_Activated(object sender, System.EventArgs e)
+        {
+            await Navigation.PopToRootAsync();
+        }
     }
 }

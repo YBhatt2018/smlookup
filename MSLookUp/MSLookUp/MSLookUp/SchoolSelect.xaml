@@ -6,7 +6,11 @@
     NavigationPage.HasBackButton="false"
     x:Class="MSLookUp.SchoolSelect"
     Padding="20">
-	<ContentPage.Content>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="LogOut" Activated="Handle_Activated"/>
+
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
        <StackLayout Spacing="20">
     <Image Source="logo.png"/>
             
