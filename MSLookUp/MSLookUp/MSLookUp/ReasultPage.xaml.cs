@@ -35,5 +35,13 @@ namespace MSLookUp
             await Navigation.PushAsync(new ProfilePage() { BindingContext = contact });
             ListView.SelectedItem = null;
         }
+        async void Handle_Activated(object sender, System.EventArgs e)
+        {
+            await Navigation.PopToRootAsync();
+        }
+        async void Handle_Activated1(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new SearchPage());
+        }
     }
 }
