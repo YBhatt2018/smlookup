@@ -16,7 +16,7 @@
             
         <Label Text="User ID" VerticalTextAlignment="Center" Grid.Row="0" Grid.Column="0" TextColor="#E38947" FontFamily="arial" x:Name="userID"/>
             <Label Text="Password" VerticalTextAlignment="Center" Grid.Row="1" Grid.Column="0" TextColor="#E38947" FontFamily="arial"/>
-                <Entry Placeholder="Enter your ID" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" x:Name="email" Keyboard="Email">
+                <Entry Placeholder="Enter your ID" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" x:Name="email" Keyboard="Numeric">
                     <Entry.Behaviors>
                         <local:MaxLengthValidatorBehavior MaxLength="6"/>
                     </Entry.Behaviors>
