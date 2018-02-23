@@ -11,7 +11,7 @@
 namespace MSLookUp {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("H:\\smlookup\\MSLookUp\\MSLookUp\\MSLookUp\\ResetPassPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("H:\\GitHub\\smlookup\\MSLookUp\\MSLookUp\\MSLookUp\\ResetPassPage.xaml")]
     public partial class ResetPassPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

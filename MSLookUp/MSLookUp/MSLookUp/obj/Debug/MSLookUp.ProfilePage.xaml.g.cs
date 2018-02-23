@@ -11,7 +11,7 @@
 namespace MSLookUp {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("H:\\smlookup\\MSLookUp\\MSLookUp\\MSLookUp\\ProfilePage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("H:\\GitHub\\smlookup\\MSLookUp\\MSLookUp\\MSLookUp\\ProfilePage.xaml")]
     public partial class ProfilePage : global::Xamarin.Forms.TabbedPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

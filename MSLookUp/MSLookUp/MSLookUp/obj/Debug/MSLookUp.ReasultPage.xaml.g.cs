@@ -11,7 +11,7 @@
 namespace MSLookUp {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("H:\\smlookup\\MSLookUp\\MSLookUp\\MSLookUp\\ReasultPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("H:\\GitHub\\smlookup\\MSLookUp\\MSLookUp\\MSLookUp\\ReasultPage.xaml")]
     public partial class ReasultPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
