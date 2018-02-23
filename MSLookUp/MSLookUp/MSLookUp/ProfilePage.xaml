@@ -4,18 +4,41 @@
     x:Class="MSLookUp.ProfilePage"
     Title="Student Info."
     Padding="20">
-	<ContentPage Title="Profile" Padding="20">
+	<ContentPage x:Name="profile" Title="Profile" Padding="20">
         <ContentPage.ToolbarItems>
         <ToolbarItem Text="LogOut" Activated="Handle_Activated"/>
 
         </ContentPage.ToolbarItems>
          <StackLayout>
-              <Image Source="/Users/yoginbhatt/Projects/MSLookUp/MSLookUp/Properties/Assets/logo.png"/>
+              <Image Source="logo.png"/>
         <Label Text="Mobile Student LookUp" TextColor="#E38947" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
-         <Label Text="{Binding lastName}"/>
-         <Label Text="{Binding firstName}"/>
-            <Label Text="{Binding studentNumber}"/>
-            
+ 
+           <StackLayout>
+                <Grid RowSpacing="10" ColumnSpacing="5">
+                    <Image Grid.RowSpan="3" Grid.Column="0" Source="kid.png" />
+                    <Label Grid.Row="0" Grid.Column="1" Text="Last Name :" />
+                    <Label Grid.Row="1" Grid.Column="1" Text="First Name :"/>
+                    <Label VerticalTextAlignment="Center" Grid.Row="2" Grid.Column="1" Text="Student Number# :"/>
+                    <Label Grid.Row="0" Grid.Column="2" Text="{Binding lastName}" />
+                    <Label Grid.Row="1" Grid.Column="2" Text="{Binding firstName}"/>
+                    <Label Grid.Row="2" Grid.Column="2" Text="{Binding studentNumber}"/>
+                    <Label Grid.Row="3" Grid.Column="0" Text="Pref Name :" />
+                    <Label Grid.Row="4" Grid.Column="0" Text="Gender :"/>
+                    <Label Grid.Row="5" Grid.Column="0" Text="Age :" />
+                    <Label Grid.Row="6" Grid.Column="0" Text="Medical :" />
+                    <Label Grid.Row="7" Grid.Column="0" Text="Phone :"/>
+                    <Label Grid.Row="8" Grid.Column="0" Text="Address :"/>
+                    <Label Grid.Row="9" Grid.Column="0" Text="E-Mail :"/>
+                    <Label Grid.Row="10" Grid.Column="0" Text="Locker :"/>
+                    <Label Grid.Row="11" Grid.Column="0" Text="Comb :"/>
+
+
+
+                </Grid>
+            </StackLayout>
+                
+           
+             
         </StackLayout>
 	</ContentPage >
     <ContentPage Title="Emergency Contact" Padding="20">
