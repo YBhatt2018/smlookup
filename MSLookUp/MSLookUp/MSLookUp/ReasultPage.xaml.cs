@@ -7,17 +7,18 @@ namespace MSLookUp
 {
     public partial class ReasultPage : ContentPage
     {
+        public String sn1;
         
-        public ReasultPage()
+        public ReasultPage(string number)
         {
             InitializeComponent();
 
             ListView.ItemsSource = new List<Contact> {
-                new Contact{lastName = "Bhatt" , firstName = "Yogin" , studentNumber = 434},       
-                new Contact{lastName = "Patel" , firstName = "Tirth" , studentNumber = 453}       
+                new Contact{lastName = "Bhatt" , firstName = "Yogin" , studentNumber = "000000000"},       
+                new Contact{lastName = "Patel" , firstName = "Tirth" , studentNumber = "000000001"}       
             };
 
-   
+             sn1 = number;
         }
 
 
@@ -32,7 +33,7 @@ namespace MSLookUp
 
             var contact = e.SelectedItem as Contact;
             //var profilepage = new ProfilePage(contact);
-            await Navigation.PushAsync(new ProfilePage() { BindingContext = contact });
+            await Navigation.PushAsync(new ProfilePage(sn1) { BindingContext = contact });
             ListView.SelectedItem = null;
         }
         async void Handle_Activated(object sender, System.EventArgs e)
