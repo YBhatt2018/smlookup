@@ -5,8 +5,8 @@
     Title="Results"
     Padding="20">
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="LogOut" Activated="Handle_Activated"/>
-        <ToolbarItem Text="Search" Activated="Handle_Activated1"/>
+        <ToolbarItem Text="LogOut" Activated="Handle_Activated" />
+        <ToolbarItem Activated="Handle_Activated1" Icon="search.png"/>
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout>
